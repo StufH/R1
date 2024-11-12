@@ -1,5 +1,5 @@
-from pylab import *
-h = 1E-8
+from pylab import * #Importere pylab biblioteket for å bruke plotting
+h = 1E-8 #Definere h for senere bruk i funksjonene
 
 def f(x): #Her definerer du f(x)
     return x**2 + 2*x
