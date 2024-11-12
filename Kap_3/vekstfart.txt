@@ -1,0 +1,5 @@
+gjennomsnittlig vekstfart i intervallet [1.0, 1.1] er 9.1676
+gjennomsnittlig vekstfart i intervallet [1.0, 1.01] er 8.2506
+gjennomsnittlig vekstfart i intervallet [1.0, 1.001] er 8.1644
+gjennomsnittlig vekstfart i intervallet [1.0, 1.0001] er 8.1558
+gjennomsnittlig vekstfart i intervallet [1.0, 1.00001] er 8.1549
