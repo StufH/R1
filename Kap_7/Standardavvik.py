@@ -1,24 +1,8 @@
 from pylab import *
 
-# Data:
-y = array([3.73, 3.53, 3.75, 3.63, 3.82])
-n = len(y)
+lengde = array([20, 40, 60, 80, 100])
+y_snitt = array([1.33, 2.06, 2.74, 3.26, 3.69])
+SE = array([0.06, 0.07, 0.08, 0.04, 0.05])
 
-# Beregning av snitt og standardavvik:
-y_snitt = sum(y) / n
-s = sqrt(sum((y - y_snitt)**2) / (n-1))
-
-# beregning av standardfeil:
-se = s / sqrt(n)
-
-print(f"gjennomsnittet er: {round(y_snitt, 3)}")
-print(f"standardavviket er: {round(s, 3)}")
-print(f"standardfeilen er: {round(se, 3)}")
-
-#plotting av data:
-plot(y,y_snitt, "b.")
-vlines(y, y_snitt - 2 * se, y_snitt + 2 * se, "r")
-xlabel("Måling")
-ylabel("Verdi")
-title("Standardavvik")
-show()
+# Plotting
+plot(lengde, y_snitt)
