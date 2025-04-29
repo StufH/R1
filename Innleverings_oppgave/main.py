@@ -39,6 +39,7 @@ ylabel("akselerasjon")
 grid()
 show()
 
+# bruk halverings metoden for å finne toppunkt til grafen for å se om det er 9.81
 
 #
 # d = (max(akselerasjon) + min(akselerasjon)) / 2
